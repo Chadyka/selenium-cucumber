@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a84702-4d69-42be-8c66-f9ad0bff86e7" name="Changes" comment="">
+    <list default="true" id="e8a84702-4d69-42be-8c66-f9ad0bff86e7" name="Changes" comment="init, making first Scenarios">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -128,8 +128,16 @@
       <option name="presentableId" value="Default" />
       <updated>1653247125575</updated>
       <workItem from="1653247126705" duration="4877000" />
-      <workItem from="1653252247963" duration="1910000" />
+      <workItem from="1653252247963" duration="2332000" />
     </task>
+    <task id="LOCAL-00001" summary="init, making first Scenarios">
+      <created>1653254502011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653254502011</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,5 +153,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init, making first Scenarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="init, making first Scenarios" />
   </component>
 </project>
