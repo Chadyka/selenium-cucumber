@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a84702-4d69-42be-8c66-f9ad0bff86e7" name="Changes" comment="init, making first Scenarios">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/unideb/inf/AbstractStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/unideb/inf/CartStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/unideb/inf/CommonStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/unideb/inf/CompareStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/unideb/inf/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hu/unideb/inf/WishlistStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hu.unideb.inf/compare.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hu.unideb.inf/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hu.unideb.inf/wishlist.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/hu.unideb.inf/compare.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hu/unideb/inf/compare.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/hu.unideb.inf/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hu/unideb/inf/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/hu.unideb.inf/wishlist.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hu/unideb/inf/wishlist.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +50,33 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/hu/unideb/inf" />
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="hu.unideb.inf" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: ">
+  <component name="RunManager" selected="Cucumber Java.Feature: wishlist (1)">
+    <configuration name="Feature: wishlist (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/hu/unideb/inf/wishlist.feature" />
+      <option name="GLUE" value="hu.unideb.inf" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="BehaviourTesting" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: wishlist" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: wishlist" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/hu.unideb.inf/wishlist.feature" />
@@ -110,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: wishlist (1)" />
         <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="Cucumber Java.Feature: wishlist" />
       </list>
@@ -128,7 +137,8 @@
       <option name="presentableId" value="Default" />
       <updated>1653247125575</updated>
       <workItem from="1653247126705" duration="4877000" />
-      <workItem from="1653252247963" duration="2332000" />
+      <workItem from="1653252247963" duration="2372000" />
+      <workItem from="1653254707723" duration="105000" />
     </task>
     <task id="LOCAL-00001" summary="init, making first Scenarios">
       <created>1653254502011</created>
@@ -137,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653254502011</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init, making first Scenarios">
+      <created>1653254603991</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653254603991</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
