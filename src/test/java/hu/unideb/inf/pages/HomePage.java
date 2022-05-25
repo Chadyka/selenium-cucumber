@@ -1,4 +1,4 @@
-package hu.unideb.inf;
+package hu.unideb.inf.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,13 +12,6 @@ import java.util.Optional;
 public class HomePage {
 
     private static final String PAGE_URL = "http://tutorialsninja.com/demo/";
-
-    @FindBy(css = "#top-links > ul > li.dropdown.open > ul > li:nth-child(1) > a")
-    private WebElement registerLink;
-
-    @FindBy(css = "#top-links > ul > li.dropdown.open > ul > li:nth-child(2) > a")
-    private WebElement loginLink;
-
     @FindBy(css = "#content > div.row > div:nth-child(1) > div > div.button-group > button:nth-child(2)")
     private WebElement wishlistButton;
 

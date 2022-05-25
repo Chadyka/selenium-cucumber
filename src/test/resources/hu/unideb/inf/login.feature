@@ -1,12 +1,15 @@
 Feature: Testing the Login page
 
   Background:
-    Given the home page is opened
-    And the login button link is clicked
+    Given the login page is opened
 
-  Scenario:
-    Given the email address is filled with "some@email.com"
-    And the order reference is filled with "432432"
-    And the message is filled with "Hello"
-    When the Send button is clicked
-    Then a "Please select a subject from the list provided." error message is shown
+  Scenario Outline:
+    Given the email field is filled with '<parameter>'
+    When the Sign In button is clicked
+    Then the '<msg>' error message is shown
+    Examples:
+      | parameter         | msg                                                   |
+      |                   | Warning: No match for E-Mail Address and/or Password. |
+      | invalid.email.com | Warning: No match for E-Mail Address and/or Password. |
+      | valid@email.com   | Warning: No match for E-Mail Address and/or Password. |
+      | 123@gmail.com     | Warning: No match for E-Mail Address and/or Password. |
